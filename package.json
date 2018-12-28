@@ -1,0 +1,29 @@
+{
+  "name": "ciena-devops",
+  "version": "1.0.3",
+  "description": "A collection of scripts and configurations used by the Ciena organization in their DevOps",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "bin": {
+    "get-release-type": "./scripts/get-release-type.js",
+    "get-version": "./scripts/get-version.js"
+  },
+  "scripts": {
+    "build": "echo",
+    "lint": "echo",
+    "test": "echo"
+  },
+  "repository": "git@github.com:ciena-blueplanet/ciena-devops.git",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
+  "contributors": [],
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "semver": "^5.5.0"
+  }
+}
